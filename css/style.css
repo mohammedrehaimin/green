@@ -17,7 +17,6 @@ main {
     width: 750px;
     margin: auto;
     background: #fff;
-    box-sizing: border-box;
 }
 
 .logo {
