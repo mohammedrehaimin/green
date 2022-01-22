@@ -1,0 +1,41 @@
+main {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+a {
+    color: #314723;
+}
+
+.largeur {
+    max-width: 750px;
+}
+
+.police {
+    font-family: "oswald";
+}
+
+nav {
+    background: #B8CB21;
+    font-size: 1.3em;
+    height: 125px;
+}
+
+h2 {
+    color: #B8CB21;
+}
+
+nav ul {
+    float: right;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.image {
+    float: left;
+}
