@@ -1,15 +1,27 @@
-main {
-    background: #fff;
-    box-sizing: border-box;
-    padding: 20px;
+body {
+    background-image: url(../images/fond.png);
+    font-family: "tahoma";
+    color: #5c5b5b;
+    margin: 0;
 }
 
-a {
+nav ul li a {
     color: #314723;
 }
 
-.largeur {
-    max-width: 750px;
+main {
+    padding: 20px;
+}
+
+.conteneur {
+    width: 750px;
+    margin: auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
 }
 
 .police {
@@ -24,6 +36,7 @@ nav {
 
 h2 {
     color: #B8CB21;
+    font-weight: 400;
 }
 
 nav ul {
@@ -36,6 +49,28 @@ nav ul li {
     padding-right: 20px;
 }
 
-.image {
+section {
+    overflow: hidden;
+}
+
+section img {
     float: left;
+    margin-right: 10px;
+}
+
+.btn {
+    background: #B8CB21;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: "tahoma";
+    color: #fff;
+    display: block;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 20px;
 }
