@@ -1,3 +1,8 @@
+@font-face {
+    font-family: oswald;
+    src: url('../font/oswald/Oswald-Regular.ttf');
+}
+
 body {
     background-image: url(../images/fond.png);
     font-family: "tahoma";
